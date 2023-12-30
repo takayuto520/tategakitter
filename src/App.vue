@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" class="vue-logo" src="./assets/logo.png">
+  <TategakiApp></TategakiApp>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TategakiApp from "./components/TategakiApp.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TategakiApp
   }
 }
 </script>
